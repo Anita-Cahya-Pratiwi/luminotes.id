@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayhacnotes.com</title>
+    <link rel="stylesheet" type="text/css" href="artikel.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calistoga&family=Hermeneus+One&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="judul">
+                <span class="a">lumi</span><span class="b">notes</span>
+            </div>
+            <span class="nav-item"><a href="home.html">Home</a></span>
+            <span class="nav-item"><a href="artikel.html">News</a><hr></span>
+            <span class="nav-item"><a href="contact.html">Contact Me</a></span>
+        </div>
+        <div class="container2">
+            <div class="content2">
+                <div class="dok2">Projects<hr></div>
+                <div id="projects-wrapper">
+                    <div class="projects" id="best-projects"></div>
+                </div>
+                
+                <div class="dok2">Experiences<hr></div>
+                <div id="experience-wrapper">
+                    <div class="projects" id="latest-projects"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function formatTanggal(stringTanggal) {
+            const opsi = { day: 'numeric', month: 'long', year: 'numeric' };
+            return new Date(stringTanggal).toLocaleDateString('en-US', opsi);
+        }
+
+        function buatTemplateProjek(projek, halamanDetail = 'detail.html') {
+            return `
+                <div class="project">
+                    <p style="text-align:center;">${projek.judul}</p>
+                    <img src="gambar/${projek.gambar}" alt="${projek.judul}">
+                    <p style="font-size:14px; font-family: 'Times New Roman', Times, serif; text-align:left;">
+                        ${formatTanggal(projek.tanggal)}
+                    </p>
+                    <p style="text-align: justify; font-size:14px;">${projek.ringkasan}</p>
+                    <a href="${halamanDetail}?id=${projek.id_artikel}" style="text-decoration: none;">
+                        <span style="font-size: 10px;">View Details</span>
+                    </a> 
+                </div>
+            `;
+        }
+
+        fetch('projectz.json')
+            .then(response => response.json())
+            .then(semuaProjek => {
+                const allProjectsAcak = [...semuaProjek].sort(() => 0.5 - Math.random());
+                const wrapperAllProjects = document.getElementById('projects-wrapper');
+                
+                let htmlBarisBaru = '<div class="projects">';
+                allProjectsAcak.forEach((p, indeks) => {
+                    if (indeks % 3 === 0 && indeks !== 0) {
+                        htmlBarisBaru += '</div><div class="projects">';
+                    }
+                    htmlBarisBaru += buatTemplateProjek(p, 'detail.html'); 
+                });
+                htmlBarisBaru += '</div>';
+                wrapperAllProjects.innerHTML = htmlBarisBaru;
+            })
+            .catch(error => console.error("Gagal memproses data artikel projectz:", error));
+            
+        fetch('projectx.json')
+            .then(response => response.json())
+            .then(semuaProjek => {    
+                const experienceAcak = [...semuaProjek].sort(() => 0.5 - Math.random());
+                const wrapperExperience = document.getElementById('experience-wrapper');
+
+                let htmlBarisBaru1 = '<div class="projects">';
+                experienceAcak.forEach((p, indeks) => {
+                    if (indeks % 3 === 0 && indeks !== 0) {
+                        htmlBarisBaru1 += '</div><div class="projects">';
+                    }
+                    htmlBarisBaru1 += buatTemplateProjek(p, 'detail1.html'); 
+                });
+                htmlBarisBaru1 += '</div>';
+                wrapperExperience.innerHTML = htmlBarisBaru1;
+            })
+            .catch(error => console.error("Gagal memproses data artikel projectx:", error));
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

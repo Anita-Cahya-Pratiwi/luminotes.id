@@ -1,0 +1,20 @@
+[
+  {
+    "id_artikel": 1,
+    "judul": "REDAKSI Website Application (2024)",
+    "gambar": "6.png",
+    "ringkasan": "REDAKSI stands for Rekap Data Produksi Berbasis Sistem Informasi (Information System-Based Production Data Recapitulation)."
+    },
+    {
+      "id_artikel": 2,
+      "judul": "Motion Automation Through Detection with YOLO in Mobile / Botting System (2025)",
+      "gambar": "16.png",
+      "ringkasan": "Developed an end-to-end autonomous real-time game automation system that detects moving platforms in an online mobile game and controls character movement. By leveraging computer vision and screen mirroring tools, the system automatically simulates precise screen touches to guide the character across platforms without human intervention. Key Technical Contributions & Accomplishments:"
+   },
+    {
+      "id_artikel": 3,
+      "judul": "Jalakata: A Collaborative Word Document Platform (2024)",
+      "gambar": "8.png",
+      "ringkasan": "As a team in a collaboration project we have been developed an application web-based that good enough to be a platform of collaborative word document that work in real time with many participant inside this web"
+   }
+]

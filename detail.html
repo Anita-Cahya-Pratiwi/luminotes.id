@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayhacnotes.com</title>
+    <link rel="stylesheet" type="text/css" href="detail.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calistoga&family=Hermeneus+One&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="judul">
+                <span class="a">lumi</span><span class="b">notes</span>
+            </div>
+            <span class="nav-item">
+                <a href="artikel.html" style="display: flex; align-items:center;">
+                    <img src="https://cdn-icons-png.flaticon.com/256/8805/8805161.png" width="40px" height="40px" alt="Back">Back
+                </a>
+            </span>
+        </div>
+        
+        <div class="isi" id="detail-project-container">
+            </div>
+
+        <div class="more">
+            <div class="dok2">Read More<hr></div>
+            <div class="projects" id="read-more-container">
+                </div>
+        </div>
+
+        <div class="footer">
+            <div class="bagian">
+                <p>ayhacnotes</p>
+                <div class="akun">
+                    <span><a href="https://www.instagram.com/atina_ayhac/"><img src="https://ambulancefunny.com/wp-content/uploads/2019/10/Instagram.png" alt="Instagram"></a></span>
+                    <span><a href="https://github.com/Anita-Cahya-Pratiwi"><img src="https://a.storyblok.com/f/89137/x/f575189e81/github-color-svgrepo-com.svg" alt="GitHub"></a></span>
+                    <span><a href="https://www.linkedin.com/in/anita-cahya-pratiwi-78a563419/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1280px-LinkedIn_icon.svg.png" style="border-radius: 50%;" alt="LinkedIn"></a></span>
+                    <span><a href="mailto:anitacahyapratiwi07@gmail.com"><img src="https://i.pinimg.com/736x/f6/57/f8/f657f8db0ae26622be66cb806c01e25a.jpg" style="border-radius: 50%;" alt="Gmail"></a></span>
+                </div>
+            </div>
+            <div class="navs"><hr>
+                <span class="item"><a href="home.html">Home</a></span>
+                <span class="item"><a href="artikel.html">News</a></span>
+                <span class="item"><a href="contactme.html">Contact</a></span>
+            </div>
+            <div class="underfoot">
+                <hr>
+                <p>© 2026 ayhacnotes</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function formatTanggal(stringTanggal) {
+            if(!stringTanggal) return "";
+            const opsi = { day: 'numeric', month: 'long', year: 'numeric' };
+            return new Date(stringTanggal).toLocaleDateString('en-US', opsi);
+        }
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const idArtikel = parseInt(urlParams.get('id'));
+
+        fetch('projectz.json')
+            .then(response => response.json())
+            .then(semuaProjek => {
+                
+                const projekDipilih = semuaProjek.find(p => p.id_artikel === idArtikel);
+                const detailContainer = document.getElementById('detail-project-container');
+
+                if (projekDipilih) {
+                    detailContainer.innerHTML = `
+                        <div class="sec1">
+                            <div class="nama-artikel">${projekDipilih.judul || ''}</div>
+                            <p class="ringkasan">${projekDipilih.ringkasan || ''}</p>
+                            <div class="uraian">
+                                <span>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3665/3665909.png" alt="user-icon">
+                                    <p>By Anita Cahya Pratiwi |</p>
+                                    <p>${formatTanggal(projekDipilih.tanggal)}</p>
+                                </span>
+                                <div class="gambar">
+                                    <img src="gambar/${projekDipilih.gambar}" alt="${projekDipilih.judul}">
+                                    ${projekDipilih.gambar1 ? `<img src="gambar/${projekDipilih.gambar1}" alt="Gambar 1">` : ''}
+                                    ${projekDipilih.gambar2 ? `<img src="gambar/${projekDipilih.gambar2}" alt="Gambar 2">` : ''}
+                                    ${projekDipilih.gambar3 ? `<img src="gambar/${projekDipilih.gambar3}" alt="Gambar 3">` : ''}
+                                </div>
+                                <p>${projekDipilih.paragraf || ''}</p>
+                                <p>${projekDipilih.paragraf1 || ''}</p>
+                                <p>${projekDipilih.paragraf2 || ''}</p>
+                                <p>${projekDipilih.paragraf3 || ''}</p>
+                                <p>${projekDipilih.paragraf4 || ''}</p>
+                      
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    detailContainer.innerHTML = `
+                        <div class="sec1" style="text-align:center; padding: 40px 0;">
+                            <div class="nama-artikel">Project Not Found</div>
+                            <p class="ringkasan">Maaf, proyek tidak dapat ditemukan.</p>
+                        </div>
+                    `;
+                }
+
+                const sisaProjek = semuaProjek.filter(p => p.id_artikel !== idArtikel);
+                const projekAcak = sisaProjek.sort(() => 0.5 - Math.random()).slice(0, 3);
+                
+                const readMoreContainer = document.getElementById('read-more-container');
+                projekAcak.forEach(row => {
+                    readMoreContainer.innerHTML += `
+                        <div class="project">
+                            <p style="text-align:center;">${row.judul}</p>
+                            <img src="gambar/${row.gambar}" alt="${row.judul}">
+                            <p>${row.ringkasan}</p>
+                            <a href="detail.html?id=${row.id_artikel}"><span style="font-size: 10px;">View Details</span></a> 
+                        </div>
+                    `;
+                });
+
+            })
+            .catch(error => console.error("Gagal memuat data detail:", error));
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

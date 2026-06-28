@@ -1,0 +1,152 @@
+
+body {
+    font-family: 'Calistoga', 'Hermeneus One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 9, 29); 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.judul {
+    padding-left: 159px;
+    text-align: left;
+    font-size: 36px;
+    padding-right: 300px;
+}
+
+.judul .a {
+    color: #05e2f1;
+}
+
+.judul .b {
+    color:#ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+    align-items: center;
+    width: 100%;
+    background-image: url('https://www.desktopbackground.org/download/1024x600/2010/11/24/116019_dark-blue-color-wallpaper_1290x807_h.jpg');
+    background-size: cover;
+    border-radius: 10px ;
+
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #ff5733;
+}
+
+.isi{
+    display: flex;
+    padding-top: 30px;
+}
+
+.sec1 {
+    width: 50%;
+    height: fit-content;
+    background-color: #00000059;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.akun {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+}
+
+.link {
+    padding: 20px;
+}
+
+.link span a{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link img {
+    width: 70px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.link p {
+    font-size: 20px;
+    color: white;
+}
+
+.link p:hover{
+    color: #ff5733;
+}
+
+.sec2 {
+    width: 50%;
+    height: fit-content;
+    background-color: #00000059;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.pesan {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+}
+
+.formulir {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.formulir img {
+    width: 400px;
+    height: fit-content;
+}
+
+
+

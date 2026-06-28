@@ -1,0 +1,393 @@
+
+body {
+    font-family: 'Calistoga', 'Hermeneus One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 9, 29); 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+    width: 100%;
+    background-image: url('https://www.desktopbackground.org/download/1024x600/2010/11/24/116019_dark-blue-color-wallpaper_1290x807_h.jpg');
+    background-size: cover;
+    border-radius: 10px ;
+
+}
+
+.judul {
+    position: relative;
+    text-align: left;
+    font-size: 36px;
+    margin-left: 65px;
+    margin-right: 300px;
+}
+
+.judul .a {
+    color: #05e2f1;
+}
+
+.judul .b {
+    color:#ffffff;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #ff5733;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-image: url('blob.png'); 
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    color: rgb(255, 255, 255);
+}
+
+.tengah{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgb(0,0,0);
+}
+
+.tengah img{
+    width: 250px;
+    height: auto;  
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.kanan{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: fit-content;
+    margin-left: 40px;
+}
+
+.kanan p{
+    font-size: 30px;
+    color:#ffffff;
+}
+
+.kanan h1{
+    font-size: 40px;
+    color: #ff5733;
+}
+
+.kiri{
+    width: 350px;
+    height: fit-content;
+    text-align: left;
+    padding: 50px;
+}
+
+.kiri .intro {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.kiri .nama {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.kiri .welcome {
+    font-size: 16px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*bar tengah*/
+.bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #9797970a;
+}
+
+.bar span img{
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*konten */
+.content {
+    background-image: url('https://assets-global.website-files.com/631943dbde32563a9a0ce683/63f3e2061ae77c41544ffdad_blob-brix-templates.svg');
+    background-size: 40%;
+    background-position-x: 10%;
+    background-position-y: -260px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+#skills {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00000059;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+    margin-bottom: 20px;
+}
+
+.myskills  {
+    font-size: 30px;
+} 
+
+.skill {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.skill p {
+    font-size: 18px;
+}
+
+.circular-progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.circular-progress svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.circular-progress .circle-bg {
+    fill: none;
+    stroke: #eeeeee;
+    stroke-width: 3.8;
+}
+
+.circular-progress .circle {
+    fill: none;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    stroke: #ffffff; 
+    stroke-dasharray: 100, 100;
+    stroke-dashoffset: 100;
+    transition: stroke-dashoffset 1s ease;
+}
+
+.circular-progress[data-percentage="80"] .circle {
+    stroke-dashoffset: 20;
+    stroke: #4991fd; /*Web Design */
+}
+
+.circular-progress[data-percentage="75"] .circle {
+    stroke-dashoffset: 25;
+    stroke: #33e0ff; /*UX Design */
+}
+
+.circular-progress[data-percentage="70"] .circle {
+    stroke-dashoffset: 30;
+    stroke: #a412a1; /*UX Design */
+}
+
+.circular-progress[data-percentage="79"] .circle {
+    stroke-dashoffset: 21;
+    stroke: #f703ff; 
+}
+
+.circular-progress[data-percentage="90"] .circle {
+    stroke-dashoffset: 10;
+    stroke: #b6bc07; 
+}
+
+.circular-progress[data-percentage="82"] .circle {
+    stroke-dashoffset: 18;
+    stroke: #00d00e; 
+}
+
+.circular-progress span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 0;
+    background-image: url('https://assets-global.website-files.com/631943dbde32563a9a0ce683/63f3e2061ae77c41544ffdad_blob-brix-templates.svg');
+    background-position-x: -200px;
+    background-size: 120%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bahasa {
+    display: inline-block;
+    width: 350px;
+    height: fit-content;
+    color: #ffffff;
+    background-color: #00000021;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+    padding: 10px;
+}
+
+.bahasa .l {
+    font-size: 25px;
+}
+
+.linea{
+    width: 200px;
+    height: 10px;
+    border-radius: 40px;
+}
+
+.lineb{
+    width: 150px;
+    height: 10px;
+    border-radius: 40px;
+}
+
+.study {
+    width: 350px;
+    display: inline-block;
+    height: fit-content;
+    color: #ffffff;
+    background-color: #00000021;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+    padding: 10px;
+}
+
+.study .s {
+    font-size: 25px;
+}
+
+.study .univ {
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+}
+
+.study .univ img {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/459/271/small_2x/shiny-gradient-circle-png.png');
+    border-radius: 50px;
+    background-size: cover;
+}
+
+/* Mengatur container kedua */
+.container2 {
+    width: 25%;
+    background-color: rgb(64, 108, 145);
+    border-radius: 10px;
+    padding: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_8xq_LhvM1Y-9G-n1k2CA2CF5LG8AieSsOjBnyI69cCwzijkq');
+    /*background-image: url('https://www.centaurea.io/images/blobs/home/desktop/blob-showcases.svg');*/
+    background-size:cover;
+    background-position-x: 50%;
+}
+
+.content2 {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.dok2 {
+    font-size: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+}
+
+.projects .project {
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00000067;
+    justify-content: center;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.projects .project img {
+    width: auto;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0);
+}
+
+.projects .project p {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Calistoga';
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.projects .project span {
+    width:100px;
+    height: auto;
+    border-radius: 5px;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/845/219/small/aesthetic-colorful-blue-and-purple-gradient-background-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg');
+    background-size: cover;
+    padding: 5px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project a:hover{
+    box-shadow: 0 4px 8px #00ffff;
+}

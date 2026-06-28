@@ -1,0 +1,47 @@
+[
+  {
+    "id_artikel": 1,
+    "judul": "R&D and Education Committee Member of HMTI at 2022-2023",
+    "gambar": "3.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Being A R&D and Education Committee Member of HMTI at UMRAH",
+    "paragraf": "- Conducted research and analysis on emerging technology trends (including AI, Machine Learning, and Web Development) to align student capabilities with current industry demands.",
+    "paragraf1": "- Planned, organized, and executed technical training programs, coding workshops, and academic webinars aimed at enhancing community skillsets.",
+    "paragraf2": "- Developed structured educational contents, technical tutorials, and learning modules to support IT students' academic growth.",
+    "paragraf3": "- Collaborated with cross-functional teams to evaluate program outcomes and analyze student feedback for continuous organizational development."
+  },
+  {
+    "id_artikel": 2,
+    "judul": "LDK Training Participant of HMTI at 2022",
+    "gambar": "2.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Participated in an intensive leadership development program focused on strategic leadership, organizational management, critical thinking, and problem-solving within the IT student community.",
+    "paragraf": "Participated in an intensive leadership development program focused on strategic leadership, organizational management, critical thinking, and problem-solving within the IT student community. Honed teamwork, cross-functional collaboration, and conflict resolution skills through simulation-based decision-making under time-sensitive constraints. Strengthened capabilities in professional communication, public speaking, and structural project/program management."
+  },
+  {
+    "id_artikel": 3,
+    "judul": "Program Division Intern at DP3 Tanjungpinang (2024)",
+    "gambar": "4.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Through my experience building an annual data website at the Department of Agriculture, I saw the immense potential of analyzing visual data (such as graphs/images) using computer vision, or automatically processing the division's text reports using NLP.",
+    "paragraf": "Developed and deployed an interactive web application from scratch to visualize and present annual historical data across 4 core divisions: Fisheries, Agriculture, Food Security, and Human Resources (Kepegawaian). Collaborated directly with the Head of Division to analyze, design, and map Business Process (Probis) diagrams and flowcharts, streamlining institutional workflows. Managed, cleaned, and integrated complex sectoral annual data from multiple sources into the web application's database. Transformed massive, unstructured government data into intuitive visual dashboards, significantly improving management efficiency in reviewing institutional annual performance."
+  },
+  {
+    "id_artikel": 4,
+    "judul": "The Community Service Program in Gunung Kijang Village: IMPLEMENTATION OF A SOLAR-POWERED RAT AND BIRD PEST REPELLENT DEVICE BASED ON ARDUINO UNO R3 MICROCONTROLLER (2024)",
+    "gambar": "1.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Rice farmers in Gunung Kijang Village face various challenges, one of which is rat and bird pest attacks. These pests often cause significant damage to rice crops, resulting in reduced harvests. With traditional methods such as setting traps or manual driving-off, efforts to control these pests require a lot of time, energy, and additional costs. Therefore, a more effective and efficient solution is needed to help farmers overcome this problem.",
+    "paragraf": "The Community Service Program (Program Pengabdian Kepada Masyarakat) conducted in Gunung Kijang Village successfully achieved its primary objective: designing and implementing a solar-powered rat and bird pest repellent device based on the Arduino UNO R3 microcontroller. However, constraints remain regarding the fine-tuning of ultrasonic sound intensity for optimal efficacy across various pest types, as well as the components' limited durability against extreme field weather conditions. The implementation results indicate that this device significantly reduces pest activity, thereby helping to enhance agricultural productivity, particularly for rice crops."
+  },
+  {
+    "id_artikel": 5,
+    "judul": "Handycrafts Artisan & Store Asistant at Pinang Hantaran (2026)",
+    "gambar": "5.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "At Pinang Hantaran Store where located at Sulaiman Abdullah Street Number. 2, I have learned so many new skills that help me to know more about clients, crafts, styling, video editing, and managing store materials",
+    "paragraf": "- Designed and crafted customized wedding gift boxes (hantaran/seserahan), focusing on high visual aesthetics, color harmony, and precise detailing based on client preferences.",
+    "paragraf1": "- Ensured strict quality control by securely arranging delicate items using various crafting techniques to maintain presentation stability during events",
+    "paragraf2": "- Delivered dozens of premium wedding sets within strict wedding timelines, demonstrating strong time management, problem-solving, and attention to detail."
+  }
+]

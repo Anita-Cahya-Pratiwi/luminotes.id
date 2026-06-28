@@ -1,0 +1,118 @@
+[
+  {
+    "id_artikel": 1,
+    "judul": "Hide and Seek (2023)",
+    "gambar": "hsb.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "A 2D automation game that has 2 objects named Green and Red, who play as the hider and the seeker.",
+    "paragraf": "A 2D automation game that has 2 objects named Green and Red, who play as the hider and the seeker. These objects play in a map full of tile walls and randomly appear when the game starts, including the players. The Green player uses a Random Walk Algorithm to move in 4 random steps every 60 seconds due to the limited sight of this player on the map. The Red player uses an A* Algorithm to navigate the map and find the Green player using an L pattern or trigonometric formulas. In this game, if the user clicks a button named 'Multiply Red', one Red player will be added with each click, using the same algorithm to find the Green player. We can see the sight of both players by clicking the 'Green Sight' or 'Red Sight' button. The game will end or stop when the Red player successfully catches the Green player."
+  },
+  {
+    "id_artikel": 2,
+    "judul": "Management System Inventory of Computer Laboratory (2024)",
+    "gambar": "inventori.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "A management system inventory of computer laboratory with 5 kind of user who called as Admin, Dosen, Mahasiswa, Kepala Lab, and Asisten Lab.",
+    "paragraf": "A comprehensive management system for the inventory of a computer laboratory, designed to efficiently handle and track equipment, resources, and usage. This system supports five distinct types of users, each with specific roles and permissions: Admin, Lecturer (Dosen), Student (Mahasiswa), Laboratory Head (Kepala Lab), and Laboratory Assistant (Asisten Lab). Admins have full control over the system, managing users and overseeing all operations. Lecturers can reserve equipment and access resources for teaching purposes. Students can check availability, borrow equipment, and view usage guidelines. The Laboratory Head supervises the overall functioning of the lab, including inventory status and maintenance schedules. Laboratory Assistants support daily operations by assisting users, maintaining equipment, and ensuring compliance with lab protocols. The system aims to streamline laboratory management, improve resource utilization, and enhance user experience for all stakeholders."
+  },
+  {
+    "id_artikel": 3,
+    "judul": "SI-P3 (2023)",
+    "gambar": "sip2023.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "A website prototype to manage information system of agriculture company who gives service and training to farmer.",
+    "paragraf": "A training and service information system for agriculture is a digital platform specifically designed to provide information, training, and services to farmers and stakeholders in the agricultural sector. The main goal of this information system is to enhance knowledge, skills, and efficiency in agricultural practices, thereby improving crop yields and the welfare of farmers. This system may include several features and components as follows: Page 1: Home Overview: This page provides a general overview of the training and service information system for agriculture. Brief Description: It includes a brief description of the system's goals and benefits. Key Features and Services: Displays the main features and services offered by the system. Page 2: Training Training Information: This page focuses on information related to training in the agricultural industry. Training List: Includes a list of available training sessions, including titles, descriptions, and durations. Details and Registration: Users can view detailed information about each training session and register if interested. Testimonials: May also include testimonials from previous training participants. Page 3: Services Service Offerings: This page displays the various services offered by the information system. Service Descriptions: May include agricultural consultations, provision of materials or equipment, or research services. Contact Providers: Users can view complete descriptions of each service and contact service providers if interested. Page 4: Contact and Information Contact Information: This page contains useful contact information, such as addresses, phone numbers, and email addresses. Operating Hours: Lists business hours and directions for visiting physical locations. Social Media Links and Contact Form: Users may also find links to social media or an online contact form to send inquiries or feedback"
+  },
+  {
+    "id_artikel": 4,
+    "judul": "REDAKSI Website Application (2024)",
+    "gambar": "6.png",
+    "gambar1": "7.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "REDAKSI stands for Rekap Data Produksi Berbasis Sistem Informasi (Information System-Based Production Data Recapitulation).",
+    "paragraf": "REDAKSI stands for Rekap Data Produksi Berbasis Sistem Informasi (Information System-Based Production Data Recapitulation). The application was developed against the backdrop of a legacy system, where production data recapitulation was handled manually, passed down manually through multiple channels, and compiled annually. This manual workflow inspired the creation of this web application, designed to optimize and simplify the data recapitulation process for staff, particularly within the program sub-department",
+    "paragraf1": "This system is a production data recapitulation platform integrated with employee data and SKP (Employee Performance Target) monitoring features at the Department of Agriculture, Food, and Fisheries of Tanjungpinang City. This application is designed for operational use across two secretariat sub-departments Program, as well as General and Human Resources along with four main sectors: Agriculture, Livestock, Fisheries, and Food Security.",
+    "paragraf2": "Master Admin is The actor that responsible for managing user data on the REDAKSI website, only through the master admin can each user be added to it. The Admin of REDAKSI is the administrator of the DP3 Program, tasked with monitoring the progress of all inputted data from the two secretariat sub-sections and four existing fields. This data can be evaluated by the Program and reported to each field and sub-section to then be made into a hard file that is recorded. In addition, the admin is authorized to manage program-specific data so that it can be viewed by other users. User Pertanian, This user is responsible for managing 5 types of data in the agricultural sector (planted area, agricultural production, harvested area, productivity, and farmers and farmer groups). User Peternakan, This user is responsible for managing 5 types of data in the livestock sector (population, livestock production, slaughter, disease, recommendations).User Perikanan, This user is responsible for managing 4 types of data in the fisheries sector (cultivation area, fisheries production, seed production, and fisheries households). User Ketahanan Pangan, This user is responsible for managing 5 types of data in the field of food security (expected food patterns, development of energy, protein and fat availability, level of food consumption adequacy, local government rice reserves, consumption needs). And the las user is Kepegawaian, This user is responsible for managing 2 types of data in the personnel field (Employees and SKP). "
+  },
+  {
+    "id_artikel": 5,
+    "judul": "Prediction System of Materials Stock with Holt Winters at Yunars Printing (2024)",
+    "gambar": "12.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Developing a system capable of predicting stock levels based on the most frequently purchased items using the Holt-Winters method provides a solution to inventory supply challenges characterized by seasonal demand and high data sparsity",
+    "paragraf": "Yunars Printing is a printing business located at Km. 9, Jl. Hanjoyo Putro, Before Areka, After Abbas Thalib Mosque, Tanjungpinang, Riau Islands 29115, Indonesia. By leveraging existing sales and financial data, Yunars Printing will be able to project future sales volumes. This prediction will assist in various aspects, ranging from capital planning to inventory management. By forecasting sales trends, Yunars Printing can adjust the amount of capital required for each order.",
+    "paragraf1": "Developing a system capable of predicting stock levels based on the most frequently purchased items using the Holt-Winters method provides a solution to inventory supply challenges characterized by seasonal demand and high data sparsity. Store owners simply need to input the specific item they wish to forecast for the upcoming month, and the system will automatically generate the predicted stock volume. This prediction is generated based on pre-loaded training data within the system, which encompasses every item sold in the store."
+  },
+  {
+    "id_artikel": 6,
+    "judul": "Motion Automation Through Detection with YOLO in Mobile / Botting System (2025)",
+    "gambar": "16.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "Developed an end-to-end autonomous real-time game automation system that detects moving platforms in an online mobile game and controls character movement. By leveraging computer vision and screen mirroring tools, the system automatically simulates precise screen touches to guide the character across platforms without human intervention. Key Technical Contributions & Accomplishments:",
+    "paragraf": "Custom Dataset Engineering: Built a proprietary training dataset by capturing high-resolution in-game video footage, implementing frame-by-frame image extraction, and manually annotating objects to train the detection model.",
+    "paragraf1": "Computer Vision & Object Detection: Implemented and fine-tuned the YOLO (You Only Look Once) object detection algorithm to detect the character and calculate the precise real-time distance between moving platforms.",
+    "paragraf2": "Android Hardware Automation: Integrated scrcpy (open-source screen mirroring tool) to bridge the PC-based AI model with an Android device, enabling low-latency real-time video streaming input and ADB-based touch event injection.",
+    "paragraf3": "Closed-Loop Control Logic: Programmed the core decision-making logic that translates real-time visual distance data into perfectly timed jump actions, automating the gameplay loop flawlessly."
+  },
+  {
+    "id_artikel": 7,
+    "judul": "Jalakata: A Collaborative Word Document Platform (2024)",
+    "gambar": "8.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "As a team in a collaboration project we have been developed an application web-based that good enough to be a platform of collaborative word document that work in real time with many participant inside this web",
+    "paragraf": "The developed collaborative document platform, named Jalakata, is a web-based application that allows multiple users to work together on the same text document simultaneously. Each document within the platform can be accessed by multiple users according to predefined roles, such as editors, who have the permission to modify the document, and readers, who can only view it. Access control is managed by administrators or document owners, who determine who can edit or simply view the document.",
+    "paragraf1": "The implementation of Jalakata begins with backend development to provide APIs, followed by frontend development to build the user interface. The integration phase connects the frontend and backend, ensuring seamless synchronization. Afterward, the system undergoes thorough evaluation through functional testing, performance testing, and security testing before finally being deployed to the production environment.",
+    "paragraf2": "This Application Features include: Login, Logout, Real-Time Collaborative Rich Text Editing, Downloading Files, Saving Files, Viewing Active Users",
+    "paragraf3": "Real-time synchronization and consistency in collaborative document editing are challenges that this project aims to address. Therefore, this project aims to provide a system that allows multiple users to edit documents collaboratively and in real-time, with changes automatically synchronized across all user devices. This project provides learning and experience for the author in developing distributed systems. It is also hoped that this system can provide a solution for users, organizations, or institutions in completing online document work in groups or teams."
+  },
+  {
+    "id_artikel": 8,
+    "judul": "Sentiment Analysis System with Decision Tree (2024)",
+    "gambar": "10.png",
+    "gambar1": "11.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "During this project, me and my teamwork developed and implemented a Machine Learning-based classification system using the Decision Tree algorithm to analyze and categorize user reviews for a video application.",
+    "paragraf": "During this project, me and my teamwork developed and implemented a Machine Learning-based classification system using the Decision Tree algorithm to analyze and categorize user reviews for a video application that named vidio.com. The system effectively classifies user feedback into two distinct sentiment classes: Positive and Negative. To ensure high versatility, the framework is designed to be domain-agnostic, meaning it can be readily adapted to classify user reviews for various other applications, under the condition that the training data undergoes appropriate preprocessing and contains pre-defined labels. Architecturally, the system features a user-friendly data ingestion process where training datasets are uploaded seamlessly via CSV files containing specific 'comment' and 'label' features. This project demonstrates my capabilities in building practical text classification workflows, executing rigorous text preprocessing, and leveraging supervised learning models to extract actionable insights from user feedback."
+  },
+  {
+    "id_artikel": 9,
+    "judul": "ANDROID-BASED NEWS APPLICATION USING FLUTTER AND NEWS API (2024)",
+    "gambar": "9.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "In a collaboration team we made 'Baca Berita' that is an application designed to facilitate online news readers,  which will always be automatically updated within the 'Baca Berita' application .",
+    "paragraf": "'Baca Berita' is an application designed to facilitate online news readers, which will always be automatically updated within the 'Baca Berita' application. It is an Android-based news application developed using the Flutter framework and News API services. The aim of this application is to provide quick and easy access to the latest news from various reliable news sources. Meanwhile, the Flutter framework enables the application to run smoothly and have an attractive appearance on various Android devices. Additionally, the News API service allows for the seamless integration of various news sources.",
+    "paragraf1": "The Homepage view of Baca Berita, which functions to display the latest news. There are also several news categories that can be accessed. The categories are divided into multiple sections and move manually."
+  },
+  {
+    "id_artikel": 10,
+    "judul": "Implementing RSA Cryptography in an Umrah Student Attendance Application Using QR Code Technology (2023)",
+    "gambar": "13.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "At Raja Ali Haji Maritime University, attendance recording in face-to-face learning is still conducted manually using paper and signatures. This manual method creates opportunities for attendance data manipulation by students. Furthermore, manual attendance recording complicates subsequent data processing because data must be typed individually and recapitulated manually with attendance data from online learning, resulting in suboptimal efficiency.",
+    "paragraf": "In a Collaboration team we developed an end-to-end website-based attendance system for Raja Ali Haji Maritime University to replace inefficient manual paper-and-signature methods. This system effectively eliminates the risk of attendance data manipulation and streamlines the data reconciliation process between face-to-face and online learning modes. To ensure high data security and student privacy, the system integrates QR Code technology secured by the RSA (Rivest-Shamir-Adleman) Cryptographic Algorithm. The system encrypts the Student Identification Number (NIM) into a secure QR Code, which lecturers can easily scan via student smartphones or identity cards."
+  },
+  {
+    "id_artikel": 11,
+    "judul": "3D World (2024)",
+    "gambar": "3d.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "How to make a 3d graphic world without using 3d graphics sofware? It feels so challenging.",
+    "paragraf": "This project is developed in the Code::Blocks IDE using C++ language, leveraging libraries such as FreeGLUT, GLUT, cmath, and imageloader. The project consists of three files: main.cpp, imageloader.cpp, and imageloader.h. Below is an explanation of the code contained in each of these files.",
+    "paragraf1": "imageloader.h The imageloader.h file serves as a library for opening BMP files by defining image pixels, height, width, filename, and color. This file is crucial for scanning the image in a manner where the top and bottom of the image are swapped with the right and left sides due to the conversion from BGR to RGB.",
+    "paragraf2": "imageloader.cpp The imageloader.cpp file is responsible for loading image data in BMP or bitmap format. This type of image data is high quality and is organized by pixels that remain unchanged under any transformation conditions. This stability makes BMP images ideal for use as textures for three-dimensional objects, especially given their large sizes (typically over 1000 pixels), which are suitable for 3D objects.",
+    "paragraf3": "main.cpp: In the main.cpp file, the GLUT library is used to leverage various OpenGL functions, while imageloader.cpp is utilized to load BMP images. The cmath library is included to perform geometric transformation functions. Initialization The initialization process involves: Enabling the depth function for objects from the camera perspective. Enabling texture functions and opening images for conversion and integration with surface images, followed by their removal from memory. Setting up primary lighting, including the declaration of light sources and object surface colors. Configuring ambient lighting to uniformly illuminate the environment without any dark areas. Lighting and Shadows: Source Light Function, This function is used to illuminate objects at specific positions, creating brightness in illuminated areas and shadows in obstructed areas. Drawing the Sphere: The sphere is rendered using triangular segments or Delaunay triangulation. Positioning and Displaying Objects: The display function sets and shows object positions on the screen and applies textures. Window Management: Reshape Function, Adjusts the size of the open window to fit the displayed objects. Keyboard Input Handling, Manages camera movement relative to object views using the handleKeypress function. The controls include W, A, S, D for forward, backward, left, and right movements, and Q and E for moving the camera up and down along the Y vector. Mouse Motion Handling, Adjusts the camera's viewing position, enabling the user to look up, down, left, and right. Main Function The int main function initiates the application by calling all the previously defined functions, thereby running the entire program"
+  },
+  {
+    "id_artikel": 12,
+    "judul": "Management Informasi Skripsi (2022)",
+    "gambar": "14.png",
+    "gambar1": "15.png",
+    "tanggal": "2026-06-26",
+    "ringkasan": "This project is an early base of developing an website of information system, we made this project from the first step which is from interview",
+    "paragraf": "Collaborated in a project team to design a comprehensive, web-based Information System tailored for undergraduate thesis management. The primary objective was to master the full lifecycle of systems analysis and design (SAD) through a structured, sequential, and holistic development workflow. Key Technical Contributions & Responsibilities:",
+    "paragraf1": "- System Workflow & Process Modeling: Developed detailed system workflow designs, creating Data Flow Diagrams (DFD) to map out data logic, processes, and functional boundaries clear across different user levels.",
+    "paragraf2": "- Database Engineering & Architecture: Designed a scalable database structure by constructing an Entity-Relationship Diagram (ERD) and performing rigorous Data Table Normalization (1NF to 3NF) to eliminate data redundancy and ensure data integrity.",
+    "paragraf3": "- UI/UX Design: Formulated user interface (UI) wireframes and prototypes, delivering an intuitive layout tailored for students, advisors, and academic administrators.",    
+    "paragraf4": "- System Simulation: Executed end-to-end system simulations to validate the operational feasibility, business logic, and integration of all designed components."
+  }
+]
